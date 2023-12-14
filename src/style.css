@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Raleway&family=Work+Sans:wght@500&display=swap");
+
+:root {
+  --primary: #ffeeb3;
+  --nav-shadow: #e4b15f;
+  --text-nav: #a75824;
+  --secondary: #c38154;
+}
+
+body {
+  background-color: var(--primary);
+  font-family: "Work Sans";
+}
+
+nav {
+  box-shadow: 0px 0px 10px 0px var(--nav-shadow);
+}
+
+.nav-content a:hover {
+  text-decoration: underline;
+  color: var(--text-nav);
+}
+
+.sect-1 {
+  background-color: var(--secondary);
+}
