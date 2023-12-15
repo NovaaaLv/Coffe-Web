@@ -639,7 +639,7 @@ video {
   border-top-left-radius: 1rem;
 }
 
-.bg-bg-nav {
+.bg-bg_nav {
   --tw-bg-opacity: 1;
   background-color: rgb(255 238 179 / var(--tw-bg-opacity));
 }
@@ -740,7 +740,7 @@ video {
   background-color: rgb(195 129 84 / var(--tw-bg-opacity));
 }
 
-.hover\:text-head-text:hover {
+.hover\:text-head_text:hover {
   --tw-text-opacity: 1;
   color: rgb(255 238 179 / var(--tw-text-opacity));
 }

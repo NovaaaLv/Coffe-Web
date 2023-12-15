@@ -10,29 +10,26 @@
     />
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
-      /** @type {import('tailwindcss').Config} */
-      module.exports = {
-        content: ["./src/**/*.{html,js}", "./index.html"],
+      tailwind.config = {
         theme: {
           extend: {
             backgroundColor: {
-              "bg-nav": "#ffeeb3",
+              bg_nav: "#ffeeb3",
               sectA: "#c38154",
             },
             colors: {
-              "head-text": "#ffeeb3",
+              head_text: "#ffeeb3",
               sectA: "#c38154",
             },
           },
         },
-        plugins: [],
       };
     </script>
     <title>Document</title>
   </head>
   <body>
     <nav
-      class="flex items-center justify-between px-44 fixed top-0 left-0 right-0 w-full bg-bg-nav"
+      class="flex items-center justify-between px-44 fixed top-0 left-0 right-0 w-full bg-bg_nav"
     >
       <div class="">
         <img src="assets/logo.png" alt="" width="78px" />
@@ -51,7 +48,7 @@
         </div>
         <div class="flex flex-col pb-5 pt-20" style="width: 500px">
           <span
-            class="text-3xl transition-all duration-500 ease-in-out hover:text-head-text"
+            class="text-3xl transition-all duration-500 ease-in-out hover:text-head_text"
             ><a href="">Coffe Tariant</a></span
           >
           <span>

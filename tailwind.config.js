@@ -5,11 +5,11 @@ module.exports = {
   theme: {
     extend: {
       backgroundColor: {
-        'bg-nav': '#ffeeb3',
+        'bg_nav': '#ffeeb3',
         'sectA': '#c38154',
       },
       colors: {
-        'head-text': '#ffeeb3',
+        'head_text': '#ffeeb3',
         'sectA': '#c38154',
       }
     },
